@@ -1,0 +1,10 @@
+name: 'Pebble'
+on:
+  - workflow_dispatch
+jobs:
+  test:
+    uses: ./.github/workflows/main.yml
+    with:
+      mode: '["build"]'
+      miryoku_alphas: '["qwerty"]'
+      miryoku_kmonad_os: '["mac"]'
