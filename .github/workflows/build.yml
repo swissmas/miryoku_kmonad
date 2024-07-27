@@ -6,4 +6,4 @@ jobs:
     uses: ./.github/workflows/main.yml
     with:
       mode: '["build"]'
-      option: '["MAC", "QWERTY"]'
+      option: '["MIRYOKU_KMONAD_OS=MAC", "MIRYOKU_ALPHAS=QWERTY"]'
