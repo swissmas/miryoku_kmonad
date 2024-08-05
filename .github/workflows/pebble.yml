@@ -9,4 +9,4 @@ jobs:
       alphas: '["qwerty"]'
       kmonad_os: '["mac"]'
       mapping: '["kinesis_advantage"]'
-      nav: '["vi]'
+      nav: '["vi"]'
